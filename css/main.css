@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url("../image/photos/photo-59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    height: 92vh;
+}
+.bg-black{
+    background: #232323;
+    opacity: .9;
+}
+.btn-danger{
+    background-color: #da3458 !important;
+}
+.btn-danger:hover{
+    background-color: #ec1645 !important;
+}
+.btn-dark{
+    background-color: #232323 !important;
+}
+.btn-dark:hover{
+    background-color: #181717 !important;
+}
+.speakers-card{
+    bottom: 0;
+    transition: all .4s ease;
+}
+.speakers-card:hover{
+    bottom: 9px;
+}
+
+.venue{
+    background-image: url("../image/photos/photo-60.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    height: 90vh;
+}
+.section-mb{
+    margin-bottom: 150px;
+}
+#pricing{
+    padding: 70px 0;
+}
+.count-number{
+    height: 40vh;
+}
+.buy-btn{
+    padding: 0 5rem;
+}
+.card-container{
+    width: 90% !important;
+}
+.card-effect{
+    bottom: 0;
+    transition: all .4s ease;
+}
+.card-effect:hover{
+    bottom: 15px;
+}
+.nav-dp-manu{
+    right: -150px;
+    display: none !important;
+}
+.nav-dropdown:hover .nav-dp-manu{
+    display: block !important;
+}
+.nav-dp-manu-1{
+    right: -170px;
+    display: none !important;
+}
+.nav-dropdown:hover .nav-dp-manu-1{
+    display: block !important;
+}
+.drop-item-hover:hover{
+    color: #dc3545 !important;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-900{
+    font-weight: 900 !important;
+}
+@media (max-width: 992px) {
+    .footer-logo-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon{
+        margin-bottom: 50px;
+        padding: 28px 0 13px 0 !important;
+    }
+}
+@media (max-width: 1200px) {
+    .venue{
+        background-position-y: 0px;
+    }
+    header{
+        background-position-y: 0px;
+    }
+}
+@media (max-width: 576px) {
+    .venue{
+        height: 60vh !important;
+    }
+    header{
+        height: 70vh;
+    }
+    .col-s{
+        flex: 0 0 auto;
+    width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .footer-center-svg{
+        display: flex;
+        justify-content: center;
+    }
+    .copyright-text-1{
+        text-align: left !important;
+    }
+    .copyright-text-2{
+        text-align: right !important;
+    }
+    .count-number{
+        padding-bottom: 50px;
+    }
+}
